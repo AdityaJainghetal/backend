@@ -24,10 +24,6 @@ const BlogSave = async (req, res) => {
       }
     }
 
-    // Parse and validate LastDate
-  
-
-    // Create banner
     const banner = await Banner.create({
       images: uploadedImages,
     Brandname
